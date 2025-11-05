@@ -1,0 +1,20 @@
+:root{
+  --accent:#2563eb;
+  --muted:#666;
+  --bg:#f6f7fb;
+}
+*{box-sizing:border-box;font-family:Inter,system-ui,Arial;margin:0;padding:0}
+body{background:var(--bg);color:#111}
+.app-shell{min-height:100vh;display:flex;flex-direction:column}
+.header{background:white;padding:12px 20px;border-bottom:1px solid #e6e9ef;display:flex;align-items:center;justify-content:space-between}
+.header h1{font-size:18px}
+.header nav a{margin-left:12px;color:var(--accent);text-decoration:none}
+.container{max-width:900px;margin:32px auto;padding:20px}
+.card{background:white;padding:20px;border-radius:8px;box-shadow:0 6px 18px rgba(10,10,20,0.06)}
+.form-row{margin-bottom:12px;display:flex;flex-direction:column}
+label{font-size:13px;margin-bottom:6px;color:var(--muted)}
+input, textarea{padding:10px;border:1px solid #d7dbe9;border-radius:6px;font-size:14px}
+button{background:var(--accent);color:white;padding:10px 14px;border:none;border-radius:8px;cursor:pointer}
+.small{font-size:13px;color:var(--muted)}
+.toggle{background:transparent;border:none;color:var(--accent);cursor:pointer}
+.header nav a.button-like{background:var(--accent);color:white;padding:6px 10px;border-radius:6px}
